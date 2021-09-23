@@ -13,7 +13,7 @@ export default function MainTable({ keyword }) {
 			keyword
 				? filter(current, offset, keyword)
 				: getRangedData(current, offset),
-		[keyword, offset]
+		[keyword, current, offset]
 	);
 	const columns = useMemo(
 		() => [

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Center, Text } from '@chakra-ui/react';
+import { Center, Text } from '@chakra-ui/react';
 
 export default function Footer() {
 	return (
@@ -9,7 +9,7 @@ export default function Footer() {
 			p="1.5rem"
 			position="fixed"
 			top="90vh"
-			opacity="1"
+			zIndex="2"
 		>
 			<Text color="rgba(0,0,0,0.25)" fontSize="0.875rem">
 				© COPYRIGHT - TAIWAN SEMICONDUCTOR MANUFACTURING COMPANY LIMITED

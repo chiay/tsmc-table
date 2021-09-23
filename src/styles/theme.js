@@ -11,6 +11,12 @@ const theme = extendTheme({
 		body: 'Roboto',
 	},
 	components: {
+		Input: {
+			baseStyle: {
+				h: '2.5rem',
+				fontSize: 'md',
+			},
+		},
 		Button: {
 			baseStyle: {
 				w: '100%',
